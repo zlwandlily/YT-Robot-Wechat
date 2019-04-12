@@ -1,0 +1,11 @@
+server:
+  port: 8001
+spring:
+  profiles:
+    active: mysql
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+logging:
+  config: classpath:logback-boot.xml
